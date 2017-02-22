@@ -1,0 +1,60 @@
+.menu {
+    width: 310px;
+    height: 100%;
+    background-color: #414141;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    display: none;
+    .sign-in {
+        width: 90%;
+        margin: 0 auto;
+        overflow: hidden;
+        div {
+            margin: 5px auto;
+        }
+    }
+    img {
+        margin: 15px auto;
+    }
+    ul {
+        list-style: none;
+        width: 90%;
+        padding: 0;
+        margin: 0px auto;
+        li {
+            padding: 2.5% 0;
+            //background-color: red;
+            border-radius:3px;
+            border: 1px solid white;
+            padding-left: 10px;
+            margin:5px;
+        }
+        a {
+            color: white;
+            font-size: 1.8rem;
+        }
+        a:hover {
+            color: #957736;
+        }
+    }
+    #hide-menu-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        span {
+            color: white;
+            font-size: 2.8rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .tagline{
+        display:none;
+    }
+}

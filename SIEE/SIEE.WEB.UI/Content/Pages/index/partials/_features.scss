@@ -1,0 +1,19 @@
+.feature{
+    margin:5px 0;
+    background-color: #BDC3C7;//#1bc7a5;
+    overflow:hidden;
+    padding:10px;
+    .title{
+     	font-size: 1.8rem;
+        color:white;
+        font-weight:bold;
+    }
+    .desc{
+    	//color:white;
+    	font-weight:bold;	
+    }
+}
+
+#feature2{
+	display:none;
+}

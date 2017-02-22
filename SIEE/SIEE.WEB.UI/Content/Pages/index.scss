@@ -1,0 +1,13 @@
+@import "index/partials/_subjects";
+@import "index/partials/_features";
+@import "index/partials/_activity";
+
+@media only screen and (max-width: 430px) {
+    html {
+        font-size: 50%;
+    }
+    .section-title {
+        font-size: 1.5rem;
+        padding: 0;
+    }
+}

@@ -1,0 +1,16 @@
+@import "tests/partials/_test";
+
+.content {
+    padding: 0 5%;
+    min-width:310px;
+    overflow: auto;
+}
+
+@media only screen and (max-width: 550px) {
+    html {
+        font-size: 50%;
+    }
+    .content {
+        padding: 0 1%;
+    }
+}

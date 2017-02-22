@@ -1,0 +1,50 @@
+.sign-up {
+    display: none;
+    form {
+        background-color: #26B1CF;
+    }
+}
+
+.menu > .sign-in {
+    display: none;
+    legend {
+        color: white;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.sign-in > form,
+.sign-up > form {
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    padding: 10px;
+    color: white;
+    label {
+        padding: 5px 0;
+    }
+    input {
+        margin-bottom: 10px;
+    }
+    span,
+    li {
+        background-color: #F2DEDE;
+        color: #C26542;
+        padding: 5px 0 0 5px;
+        display: block;
+        margin: 0;
+        border-radius: 3px;
+    }
+    .validation-summary-errors {
+        ul {
+            list-style: none;
+            padding: 0;
+            li {
+                margin: 3px 0;
+            }
+        }
+    }
+    .form-group {
+        margin-bottom: 0px;
+    }
+}

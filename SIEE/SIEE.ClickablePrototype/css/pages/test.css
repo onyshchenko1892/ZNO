@@ -1,0 +1,351 @@
+/* line 1, ../../sass/pages/test/partials/_header.scss */
+.test-nav {
+  background-color: #0072C6;
+  font-size: 1.8rem;
+  color: white;
+  padding: 0.9rem 0;
+  overflow: hidden;
+}
+/* line 7, ../../sass/pages/test/partials/_header.scss */
+.test-nav a {
+  color: #FFA500;
+  font-weight: bold;
+}
+/* line 14, ../../sass/pages/test/partials/_header.scss */
+.test-nav .time {
+  display: none;
+}
+
+/* line 3, ../../sass/pages/test/partials/_question-map.scss */
+.questions-map {
+  margin-top: 10px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  width: 100%;
+  padding: 0 10%;
+  border-bottom: 1px solid gray;
+  float: left;
+  display: none;
+}
+/* line 12, ../../sass/pages/test/partials/_question-map.scss */
+.questions-map a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  float: left;
+  font-weight: bold;
+  color: #929DAC;
+  border: 1px solid #929DAC;
+  text-align: center;
+}
+/* line 27, ../../sass/pages/test/partials/_question-map.scss */
+.questions-map a:hover {
+  cursor: pointer;
+}
+/* line 31, ../../sass/pages/test/partials/_question-map.scss */
+.questions-map a.answered {
+  color: #fff;
+  background-color: #26B1CF;
+}
+
+/* line 37, ../../sass/pages/test/partials/_question-map.scss */
+.current-question {
+  background-color: #FFBE00;
+}
+/* line 39, ../../sass/pages/test/partials/_question-map.scss */
+.current-question a {
+  color: white;
+}
+
+@media only screen and (max-width: 400px) {
+  /* line 45, ../../sass/pages/test/partials/_question-map.scss */
+  .questions-map {
+    height: 80px;
+    overflow-y: scroll;
+    padding: 0 10px;
+  }
+}
+/* line 1, ../../sass/pages/test/partials/_manage-btns.scss */
+.manage-btns {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 10px;
+  float: left;
+}
+/* line 6, ../../sass/pages/test/partials/_manage-btns.scss */
+.manage-btns button {
+  height: 40px;
+  line-height: 40px;
+  border: 0;
+  outline: none;
+  color: white;
+}
+/* line 14, ../../sass/pages/test/partials/_manage-btns.scss */
+.manage-btns .start-test p {
+  margin: 10px 0;
+  font-size: 1.6rem;
+  text-align: left;
+  font-family: 'Arial';
+}
+/* line 20, ../../sass/pages/test/partials/_manage-btns.scss */
+.manage-btns .start-test button {
+  background-color: #fff;
+  font-size: 1.5rem;
+  width: 300px;
+  height: 70px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+/* line 28, ../../sass/pages/test/partials/_manage-btns.scss */
+.manage-btns .start-test .disabled {
+  color: #000;
+}
+/* line 31, ../../sass/pages/test/partials/_manage-btns.scss */
+.manage-btns .start-test .enabled {
+  color: white;
+  background-color: #2ABD74;
+}
+/* line 36, ../../sass/pages/test/partials/_manage-btns.scss */
+.manage-btns .end-test {
+  display: none;
+}
+/* line 38, ../../sass/pages/test/partials/_manage-btns.scss */
+.manage-btns .end-test button {
+  background-color: #C02626;
+  width: 160px;
+  margin: 5px 0;
+}
+/* line 44, ../../sass/pages/test/partials/_manage-btns.scss */
+.manage-btns .navigate-questions {
+  padding: 5px 0;
+  display: none;
+}
+/* line 47, ../../sass/pages/test/partials/_manage-btns.scss */
+.manage-btns .navigate-questions button {
+  width: 40px;
+}
+/* line 50, ../../sass/pages/test/partials/_manage-btns.scss */
+.manage-btns .navigate-questions .enabled {
+  background-color: #fff;
+  border: 2px solid gray;
+  color: gray;
+  font-weight: bold;
+}
+
+/* line 59, ../../sass/pages/test/partials/_manage-btns.scss */
+.manage-btns-bordered {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+@media only screen and (max-width: 400px) {
+  /* line 65, ../../sass/pages/test/partials/_manage-btns.scss */
+  .manage-btns button {
+    line-height: 30px;
+    height: 30px;
+  }
+}
+/* line 1, ../../sass/pages/test/partials/_question.scss */
+.question {
+  width: 100%;
+  float: left;
+  padding: 0 5%;
+  border-bottom: 1px solid black;
+}
+/* line 6, ../../sass/pages/test/partials/_question.scss */
+.question input {
+  margin-bottom: 10px;
+  padding-left: 5px;
+}
+/* line 10, ../../sass/pages/test/partials/_question.scss */
+.question input.correct {
+  border: 1px solid #2ABD74;
+}
+/* line 13, ../../sass/pages/test/partials/_question.scss */
+.question input.incorrect {
+  border: 1px solid red;
+}
+
+/* line 18, ../../sass/pages/test/partials/_question.scss */
+.question-sentence {
+  padding-left: 10px;
+  border-left: 4px solid #0072C6;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+/* line 23, ../../sass/pages/test/partials/_question.scss */
+.question-sentence > div {
+  background-color: #F5F5F5;
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  border-radius: 3px;
+  padding: 10px;
+  overflow: hidden;
+  float: left;
+  width: 100%;
+}
+/* line 31, ../../sass/pages/test/partials/_question.scss */
+.question-sentence > div p {
+  float: left;
+}
+
+/* line 37, ../../sass/pages/test/partials/_question.scss */
+.question-image img {
+  width: 100%;
+  max-height: 300px;
+  margin-bottom: 10px;
+}
+
+/* line 43, ../../sass/pages/test/partials/_question.scss */
+.marked-list-item {
+  display: table;
+  border-left: 4px solid gray;
+  margin: 5px 0;
+}
+/* line 47, ../../sass/pages/test/partials/_question.scss */
+.marked-list-item > span {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #FFBE00;
+  display: block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+/* line 56, ../../sass/pages/test/partials/_question.scss */
+.marked-list-item div {
+  display: table-cell;
+  vertical-align: middle;
+  background-color: #F5F5F5;
+  width: 100%;
+  padding: 5px;
+  text-align: left;
+}
+/* line 65, ../../sass/pages/test/partials/_question.scss */
+.marked-list-item img {
+  max-height: 150px;
+}
+
+/* line 70, ../../sass/pages/test/partials/_question.scss */
+.true div {
+  border: 2px solid #2ABD74;
+}
+
+/* line 74, ../../sass/pages/test/partials/_question.scss */
+.marked-list-item-selected {
+  border-left: 4px solid #9D0C3B;
+}
+/* line 76, ../../sass/pages/test/partials/_question.scss */
+.marked-list-item-selected > span {
+  line-height: 36px;
+  color: #9D0C3B;
+  border: 3px solid #9D0C3B;
+}
+
+/* line 83, ../../sass/pages/test/partials/_question.scss */
+.marked-list-item:hover {
+  border-left: 4px solid #26B1CF;
+}
+/* line 85, ../../sass/pages/test/partials/_question.scss */
+.marked-list-item:hover div {
+  background-color: #fff;
+}
+/* line 88, ../../sass/pages/test/partials/_question.scss */
+.marked-list-item:hover > span {
+  border: 3px solid #26B1CF;
+  line-height: 36px;
+  color: #26B1CF;
+}
+
+/* line 96, ../../sass/pages/test/partials/_question.scss */
+.self-answer div {
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 400px) {
+  /* line 102, ../../sass/pages/test/partials/_question.scss */
+  .marked-list-item img {
+    max-height: 140px;
+  }
+}
+/* line 108, ../../sass/pages/test/partials/_question.scss */
+.answers-map td {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border: 1px solid black;
+}
+/* line 114, ../../sass/pages/test/partials/_question.scss */
+.answers-map tr:first-child td:first-child {
+  border: none;
+}
+
+/* line 119, ../../sass/pages/test/partials/_question.scss */
+.MJXc-display {
+  display: inline-block !important;
+  text-align: left !important;
+  margin: 0 !important;
+}
+
+/* line 1, ../../sass/pages/test/partials/_user-result.scss */
+.user-result {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: none;
+}
+/* line 7, ../../sass/pages/test/partials/_user-result.scss */
+.user-result .progress {
+  margin: 10px;
+  height: 25px;
+}
+/* line 10, ../../sass/pages/test/partials/_user-result.scss */
+.user-result .progress .progress-bar {
+  height: 25px;
+  line-height: 25px;
+}
+/* line 16, ../../sass/pages/test/partials/_user-result.scss */
+.user-result .details ul {
+  list-style: none;
+  padding: 0;
+  margin-left: 10px;
+}
+/* line 20, ../../sass/pages/test/partials/_user-result.scss */
+.user-result .details ul li {
+  font-weight: 600;
+}
+/* line 22, ../../sass/pages/test/partials/_user-result.scss */
+.user-result .details ul li .number-true-answers {
+  color: #2ABD74;
+}
+/* line 25, ../../sass/pages/test/partials/_user-result.scss */
+.user-result .details ul li .number-false-answers {
+  color: #C02626;
+}
+
+/* line 7, ../../sass/pages/test.scss */
+body {
+  background-color: #26B1CF;
+}
+
+/* line 11, ../../sass/pages/test.scss */
+.content {
+  margin: 0px 5%;
+  overflow: hidden;
+}
+
+/* line 16, ../../sass/pages/test.scss */
+.content-bordered {
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+@media only screen and (max-width: 400px) {
+  /* line 22, ../../sass/pages/test.scss */
+  html {
+    font-size: 50%;
+  }
+}

@@ -1,0 +1,96 @@
+$testTrHeight:40px;
+.test {
+    float: left;
+    width: 100%;
+    border: 1px solid #FF972A;
+    table.table {
+        display: none;
+        margin: 0;
+        thead {
+            tr {
+                background-color: #C8C8C8;
+                padding: 0;
+            }
+            td {
+                height: 20px;
+                line-height: 20px;
+                vertical-align: middle;
+                font-weight: bold;
+            }
+        }
+        tr {
+            color: white;
+            background-color: #1F7F9F;
+        }
+        td {
+            padding: 0;
+            height: $testTrHeight;
+            line-height: $testTrHeight;
+        }
+        td:nth-child(1) {
+            text-indent: 10px;
+        }
+        td > a {
+            background-color: #449D44;
+            width: 90%;
+            height: 30px;
+            line-height:30px;
+            margin: 5px auto;
+            outline: none;
+            color: white;
+            display: block;
+            overflow:hidden;
+            border-radius:3px;
+            padding: 0 5px;
+        }
+    }
+    .header {
+        height: 50px;
+        line-height: 50px;
+        background-color: #FF972A;
+        position: relative;
+        color: white;
+        font-weight: bold;
+        font-size: 1.8rem;
+        text-indent: 10px;
+        .down-list-btn {
+            float: right;
+            height: 100%;
+            right: 0;
+            position: absolute;
+            background-color: #B86D1E;
+            border: 0;
+            width: 50px;
+            outline: none;
+            text-align:center;
+            span {
+                color: white;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .test {
+        table.table {
+            thead{
+                td{
+                    font-size: 1.2rem;
+                }
+            }
+            td:nth-child(1){
+                font-size:1.4rem;
+            }
+            td > a {
+                width: 70%;
+                height: 30px;
+                font-size:1.3rem;
+                outline: none;
+                text-align:center;
+                span {
+                    display: none;
+                }
+            }
+        }
+    }
+}

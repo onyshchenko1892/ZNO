@@ -1,0 +1,47 @@
+@import "modules/_functions";
+@import "modules/_global_variables";
+
+@import "partials/_header";
+@import "partials/_menu";
+
+html, body {
+    height: 100%;
+}
+
+html { font-size: 62.5%; } 
+
+body {
+    font-size: $defaultFontSize;
+}
+
+a{
+    color:black;
+}
+
+a:hover, a:visited{
+    text-decoration: none;
+    color:black;
+}
+
+.content {
+    margin-top:10px;  
+}
+
+.block-title {
+    font-size: 1.8rem;
+    line-height: 1;
+    padding:7px 0;
+}
+
+hr{
+    padding:0;
+    margin:5px 0;
+}
+
+@media only screen and (max-width: 430px) {
+    .block-title {
+        font-size: 1.5rem;
+        padding: 0;
+    }
+}
+

@@ -1,0 +1,203 @@
+<html>
+
+<head>
+    <title>Index</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/libs/jquery/jquery-3.1.0.min.js"></script>
+    <link rel="stylesheet" href="../css/libs/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/site/site.css" />
+    <link rel="stylesheet" href="../css/pages/index.css" />
+    <link rel="stylesheet" href="../css/libs/animate/animate.css" />
+    <script src="../js/pages/index.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="menu">
+            <img src="../img/logo.png" alt="" class="img-responsive">
+            <button id="hide-menu-btn">
+                <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+            </button>
+            <div class="sign-in">
+                <form>
+                    <legend>Увійти</legend>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" class="form-control animated zoomInLeft">
+                    </div>
+                    <div class="form-group">
+                        <label for="sign-up-email">Пароль</label>
+                        <input type="password" class="form-control animated zoomInRight">
+                    </div>
+                    <button type="submit" class="btn btn-default">Увійти</button>
+                </form>
+            </div>
+            <ul>
+                <li class="show-sign-in-block"><a href="#">Увійти</a></li>
+                <!--li><a href="#">Мій кабінет</a></li-->
+                <li><a href="#">Вибрати ВНЗ</a></li>
+            </ul>
+        </nav>
+        <nav class="row site-nav">
+            <button id="show-menu-btn">
+                <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+            </button>
+            <div class="logo">
+                <img src="../img/logo.png" alt="site logo" class="img-responsive">
+            </div>
+            <div class="site-name">
+                <span>successfully</span>
+                <span>independent</span>
+                <span>external</span>
+                <span>eveluation</span>
+            </div>
+            <div class="tagline">Ми допоможемо тобі успішно здати ЗНО</div>
+            <ul>
+                <li>
+                    <a href="#" id="show-user-account"></a>
+                </li>
+                <li>
+                    <a href="#" id="user-logout"></a>
+                </li>
+                <li><a href="#" id="show-sign-up-block">Зареєструватись</a></li>
+                <li class="show-sign-in-block"><a href="#">Увійти</a></li>
+            </ul>
+        </nav>
+        <div class="row">
+            <section class="content">
+                <aside class="sign-up col-sm-4 animated zoomInLeft">
+                    <div class="block-title">Реєстрація нового користувача </div>
+                    <hr />
+                    <form>
+                        <div class="form-group">
+                            <label>Ім'я</label>
+                            <input type="text" class="form-control animated zoomInLeft">
+                            <span>Не корректний email</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="sign-up-email">Прізвище</label>
+                            <input type="text" class="form-control animated zoomInRight">
+                        </div>
+                        <div class="form-group">
+                            <label for="sign-up-email">Email</label>
+                            <input type="email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="sign-up-password">Пароль</label>
+                            <input type="password" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="sign-up-rep-password">Підтвердіть пароль</label>
+                            <input type="password" class="form-control">
+                        </div>
+                        <button type="submit" class="btn btn-default">Зареєструватись</button>
+                    </form>
+                </aside>
+                <section class="subjects col-sm-8">
+                    <div class="block-title">Предмети</div>
+                    <hr />
+                    <div class="row">
+                        <!--
+                        a[href=tests.html].col-sm-6.subject.animated.zoomInLeft>div.sub-logo.text-center{M}+div.title{Математика}+div.num-test{35 тестів}*12
+                        -->
+                        <a href="tests.html" class="col-lg-6 subject animated zoomInLeft">
+                            <div class="sub-logo text-center">M</div>
+                            <div class="title">Математика</div>
+                            <div class="num-test">35 тестів</div>
+                        </a>
+                        <a href="tests.html" class="col-lg-6 subject animated zoomInLeft">
+                            <div class="sub-logo text-center">M</div>
+                            <div class="title">Математика</div>
+                            <div class="num-test">35 тестів</div>
+                        </a>
+                        <a href="tests.html" class="col-lg-6 subject animated zoomInLeft">
+                            <div class="sub-logo text-center">M</div>
+                            <div class="title">Математика</div>
+                            <div class="num-test">35 тестів</div>
+                        </a>
+                        <a href="tests.html" class="col-lg-6 subject animated zoomInLeft">
+                            <div class="sub-logo text-center">M</div>
+                            <div class="title">Математика</div>
+                            <div class="num-test">35 тестів</div>
+                        </a>
+                        <a href="tests.html" class="col-lg-6 subject animated zoomInLeft">
+                            <div class="sub-logo text-center">M</div>
+                            <div class="title">Математика</div>
+                            <div class="num-test">35 тестів</div>
+                        </a>
+                        <a href="tests.html" class="col-lg-6 subject animated zoomInLeft">
+                            <div class="sub-logo text-center">M</div>
+                            <div class="title">Математика</div>
+                            <div class="num-test">35 тестів</div>
+                        </a>
+                        <a href="tests.html" class="col-lg-6 subject animated zoomInLeft">
+                            <div class="sub-logo text-center">M</div>
+                            <div class="title">Математика</div>
+                            <div class="num-test">35 тестів</div>
+                        </a>
+                        <a href="tests.html" class="col-lg-6 subject animated zoomInLeft">
+                            <div class="sub-logo text-center">M</div>
+                            <div class="title">Математика</div>
+                            <div class="num-test">35 тестів</div>
+                        </a>
+                        <a href="tests.html" class="col-lg-6 subject animated zoomInLeft">
+                            <div class="sub-logo text-center">M</div>
+                            <div class="title">Математика</div>
+                            <div class="num-test">35 тестів</div>
+                        </a>
+                        <a href="tests.html" class="col-lg-6 subject animated zoomInLeft">
+                            <div class="sub-logo text-center">M</div>
+                            <div class="title">Математика</div>
+                            <div class="num-test">35 тестів</div>
+                        </a>
+                        <a href="tests.html" class="col-lg-6 subject animated zoomInLeft">
+                            <div class="sub-logo text-center">M</div>
+                            <div class="title">Математика</div>
+                            <div class="num-test">35 тестів</div>
+                        </a>
+                        <a href="tests.html" class="col-lg-6 subject animated zoomInLeft">
+                            <div class="sub-logo text-center">M</div>
+                            <div class="title">Математика</div>
+                            <div class="num-test">35 тестів</div>
+                        </a>
+                    </div>
+                </section>
+                <aside class="features-activities col-sm-4">
+                    <div class="features">
+                        <div class="block-title">Використовуючи наш ресурс ви зможете: </div>
+                        <hr />
+                        <div class="col-sm-12 feature">
+                            <div class="title text-center">Пройти тест з вибраного предмету</div>
+                            <div class="desc text-center">Ми маємо базу даних, котра містить близько 244 теста з 14 предметів, починаючи з 2005р. і дотепер</div>
+                            <div><img src="../img/1.png" alt="" class="img-responsive"></div>
+                        </div>
+                        <div class="col-sm-12 feature" id="feature2">
+                            <div class="title text-center">Переглядати свою статистику</div>
+                            <div class="desc text-center">На нашому сайті або android-додатку ви зможете пройти близько 200-от тестів</div>
+                            <div><img src="../img/1.png" alt="" class="img-responsive"></div>
+                        </div>
+                    </div>
+                    <div class="activities">
+                        <div class="block-title">Активність: </div>
+                        <hr />
+                        <div class="activity">
+                            <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            <span class="value">1100</span> Зареєстрованих користувачів
+                        </div>
+                        <div class="activity">
+                            <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            <span class="value">20</span> Пройдено тестів сьогодні
+                        </div>
+                        <div class="activity">
+                            <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            <span class="value">20</span> Відвідувань нашого ресурсу за сьогодні
+                        </div>
+                    </div>
+                </aside>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>

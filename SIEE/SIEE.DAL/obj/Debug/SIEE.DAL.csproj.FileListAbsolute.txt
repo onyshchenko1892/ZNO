@@ -1,0 +1,13 @@
+C:\Users\user\Downloads\Legen-wait-for-it-dary-zno-1ee099f69a71\Legen-wait-for-it-dary-zno-1ee099f69a71\SIEE\SIEE.DAL\bin\Debug\SIEE.DAL.dll.config
+C:\Users\user\Downloads\Legen-wait-for-it-dary-zno-1ee099f69a71\Legen-wait-for-it-dary-zno-1ee099f69a71\SIEE\SIEE.DAL\bin\Debug\SIEE.DAL.dll
+C:\Users\user\Downloads\Legen-wait-for-it-dary-zno-1ee099f69a71\Legen-wait-for-it-dary-zno-1ee099f69a71\SIEE\SIEE.DAL\bin\Debug\SIEE.DAL.pdb
+C:\Users\user\Downloads\Legen-wait-for-it-dary-zno-1ee099f69a71\Legen-wait-for-it-dary-zno-1ee099f69a71\SIEE\SIEE.DAL\bin\Debug\MongoDB.Bson.dll
+C:\Users\user\Downloads\Legen-wait-for-it-dary-zno-1ee099f69a71\Legen-wait-for-it-dary-zno-1ee099f69a71\SIEE\SIEE.DAL\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\user\Downloads\Legen-wait-for-it-dary-zno-1ee099f69a71\Legen-wait-for-it-dary-zno-1ee099f69a71\SIEE\SIEE.DAL\bin\Debug\MongoDB.Driver.dll
+C:\Users\user\Downloads\Legen-wait-for-it-dary-zno-1ee099f69a71\Legen-wait-for-it-dary-zno-1ee099f69a71\SIEE\SIEE.DAL\bin\Debug\MongoDB.Driver.Legacy.dll
+C:\Users\user\Downloads\Legen-wait-for-it-dary-zno-1ee099f69a71\Legen-wait-for-it-dary-zno-1ee099f69a71\SIEE\SIEE.DAL\bin\Debug\MongoDB.Bson.xml
+C:\Users\user\Downloads\Legen-wait-for-it-dary-zno-1ee099f69a71\Legen-wait-for-it-dary-zno-1ee099f69a71\SIEE\SIEE.DAL\bin\Debug\MongoDB.Driver.xml
+C:\Users\user\Downloads\Legen-wait-for-it-dary-zno-1ee099f69a71\Legen-wait-for-it-dary-zno-1ee099f69a71\SIEE\SIEE.DAL\bin\Debug\MongoDB.Driver.Legacy.xml
+C:\Users\user\Downloads\Legen-wait-for-it-dary-zno-1ee099f69a71\Legen-wait-for-it-dary-zno-1ee099f69a71\SIEE\SIEE.DAL\obj\Debug\SIEE.DAL.csprojResolveAssemblyReference.cache
+C:\Users\user\Downloads\Legen-wait-for-it-dary-zno-1ee099f69a71\Legen-wait-for-it-dary-zno-1ee099f69a71\SIEE\SIEE.DAL\obj\Debug\SIEE.DAL.dll
+C:\Users\user\Downloads\Legen-wait-for-it-dary-zno-1ee099f69a71\Legen-wait-for-it-dary-zno-1ee099f69a71\SIEE\SIEE.DAL\obj\Debug\SIEE.DAL.pdb

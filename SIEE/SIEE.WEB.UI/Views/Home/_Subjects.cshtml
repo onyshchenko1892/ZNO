@@ -1,0 +1,15 @@
+﻿@{
+    Dictionary<SIEE.DAL.DTOs.Subject, int> subjectNumberOfTestsDictionary = ViewBag.subjectNumberOfTestsDictionary;
+}
+<div class="section-title">Предмети</div>
+<hr />
+<div class="row subjects">
+    @foreach (var item in subjectNumberOfTestsDictionary)
+    {        
+        <a href="@Url.Action("Index", "Tests",new {subjectId = @item.Key.SubjectId})" class = "col-sm-6 subject animated zoomInLeft">
+            <div class="sub-logo text-center">@item.Key.Name[0]</div>
+            <div class="title">@item.Key.Name</div>
+            <div class="num-test">@item.Value тест</div>
+        </a>
+    }
+</div>

@@ -1,0 +1,32 @@
+@import "index/partials/_subjects";
+@import "index/partials/_features";
+@import "index/partials/_activity";
+@import "index/partials/_auth";
+
+.content{
+	padding: 0 10px;
+}
+
+@media only screen and (max-width: 766px) {
+	.sign-up{
+		form{
+			width: 80%;
+			margin:0 auto;
+		}
+	}
+}
+
+@media only screen and (max-width: 430px) {
+    .sign-up{
+		form{
+			width: 100%;
+		}
+	}
+    html {
+        font-size: 50%;
+    }
+    .block-title {
+        font-size: 1.5rem;
+        padding: 0;
+    }
+}

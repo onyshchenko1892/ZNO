@@ -1,0 +1,67 @@
+﻿@{
+    string subjectName = ViewBag.subjectName;
+    IEnumerable<IGrouping<int, SIEE.WEB.UI.Models.Test>> tests = ViewBag.tests;
+}
+
+<div class="section-title">Список тестів</div>
+<hr/>
+
+@{
+    foreach (var test in tests)
+    {
+        <div class="test">
+            <div class="header">
+                @subjectName @test.Key
+                <button class="down-list-btn">
+                    <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+                </button>
+            </div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <td>Тест</td>
+                        <td>
+                            К-ть
+                            <br /> спроб
+                        </td>
+                        <td>
+                            К-ть
+                            <br /> питань
+                        </td>
+                        <td>Час</td>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in test)
+                    {
+                        <tr>
+                            <td>@item.Name</td>
+                            <td>@item.NumberMemberAttempt</td>
+                            <td>@item.NumberQuestions</td>
+                            <td>@item.Time</td>
+                            <td>
+                                <a href="@Url.Action("Index","Test",new {testId = item.TestId})" class="text-center">
+                                    <span>Пройти</span> тест
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                    <tr>
+                        <td>Загальний тест</td>
+                        <td>1</td>
+                        <td>78</td>
+                        <td>30хв</td>
+                        <td>
+                            <a href="test.html" class="text-center">
+                                <span>Пройти тест</span>
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    }
+}
+
+

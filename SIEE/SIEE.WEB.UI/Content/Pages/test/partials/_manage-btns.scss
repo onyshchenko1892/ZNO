@@ -1,0 +1,69 @@
+.manage-btns {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+    float: left;
+    button {
+        height: 40px;
+        line-height: 40px;
+        border: 0;
+        outline: none;
+        color: white;
+    }
+    .start-test {
+        p {
+            margin: 10px 0;
+            font-size: 1.6rem;
+            text-align: left;
+            font-family: 'Arial';
+        }
+        button {
+            background-color: #fff;
+            font-size: 1.5rem;
+            width: 300px;
+            height: 70px;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        .disabled {
+            color: #000;
+        }
+        .enabled {
+            color: white;
+            background-color: #2ABD74;
+        }
+    }
+    .end-test {
+        display: none;
+        button {
+            background-color: #C02626;
+            width: 160px;
+            margin: 5px 0;
+        }
+    }
+    .navigate-questions {
+        padding: 5px 0;
+        display: none;
+        button {
+            width: 40px;
+        }
+        .enabled {
+            background-color: #fff;
+            border: 2px solid gray;
+            color: gray;
+            font-weight: bold;
+        }
+    }
+}
+
+.manage-btns-bordered {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+@media only screen and (max-width: 400px) {
+    .manage-btns button {
+        line-height: 30px;
+        height: 30px;
+    }
+}

@@ -1,0 +1,84 @@
+.test {
+  float: left;
+  width: 100%;
+  border: 1px solid #FF972A; }
+  .test table.table {
+    display: none;
+    margin: 0; }
+    .test table.table thead tr {
+      background-color: #C8C8C8;
+      padding: 0; }
+    .test table.table thead td {
+      height: 20px;
+      line-height: 20px;
+      vertical-align: middle;
+      font-weight: bold; }
+    .test table.table tr {
+      color: white;
+      background-color: #1F7F9F; }
+    .test table.table td {
+      padding: 0;
+      height: 40px;
+      line-height: 40px; }
+    .test table.table td:nth-child(1) {
+      text-indent: 10px; }
+    .test table.table td > a {
+      background-color: #449D44;
+      width: 90%;
+      height: 30px;
+      line-height: 30px;
+      margin: 5px auto;
+      outline: none;
+      color: white;
+      display: block;
+      overflow: hidden;
+      border-radius: 3px;
+      padding: 0 5px; }
+  .test .header {
+    height: 50px;
+    line-height: 50px;
+    background-color: #FF972A;
+    position: relative;
+    color: white;
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-indent: 10px; }
+    .test .header .down-list-btn {
+      float: right;
+      height: 100%;
+      right: 0;
+      position: absolute;
+      background-color: #B86D1E;
+      border: 0;
+      width: 50px;
+      outline: none;
+      text-align: center; }
+      .test .header .down-list-btn span {
+        color: white; }
+
+@media only screen and (max-width: 400px) {
+  .test table.table thead td {
+    font-size: 1.2rem; }
+  .test table.table td:nth-child(1) {
+    font-size: 1.4rem; }
+  .test table.table td > a {
+    width: 70%;
+    height: 30px;
+    font-size: 1.3rem;
+    outline: none;
+    text-align: center; }
+    .test table.table td > a span {
+      display: none; } }
+.content {
+  padding: 0 5%;
+  min-width: 310px;
+  overflow: auto; }
+
+@media only screen and (max-width: 550px) {
+  html {
+    font-size: 50%; }
+
+  .content {
+    padding: 0 1%; } }
+
+/*# sourceMappingURL=tests.css.map */

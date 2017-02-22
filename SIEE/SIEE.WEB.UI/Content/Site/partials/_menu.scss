@@ -1,0 +1,55 @@
+.menu{
+	width: 310px;
+	height:100%;
+	background-color: #414141;
+	position: fixed;
+	z-index:999;
+	top:0;
+	left:0;
+	display:none;
+
+	div{
+		margin:0px auto;
+		width:90%;
+		height:30px;
+		line-height:30px;
+		color:white;
+		font-weight:bold;
+		font-size:1.6rem;
+	}
+
+	img{
+		margin:0px auto;
+	}
+
+	ul{
+		list-style:none;
+		width: 90%;
+		padding: 0;
+		margin:0px auto;
+		li{
+			padding: 2.5% 0;
+		}
+		a{
+			color:white;
+			font-size:1.8rem;
+		}
+		a:hover{
+			color:#957736;
+		}
+	}
+
+	button{
+		position: absolute;
+		top:0;
+		right:0;
+		border:none;
+		outline:none;
+		background-color: transparent;
+	}
+
+	span{
+		color:white;
+		font-size:2.8rem;
+	}
+}

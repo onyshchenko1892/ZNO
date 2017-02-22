@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "SIEE";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section style{
+    <!--link rel="stylesheet" href="@Url.Content("~/Content/Libs/animate.css")" /-->
+    <link rel="stylesheet" href="@Url.Content("~/Content/Pages/test.css")" />
+}
+
+@Html.Partial("_TestHeader")
+<div class="container-fluid">
+    <div class="row">
+        <section class="content">
+            <div class="questions-map">
+            </div>
+            @Html.Partial("_ManageBtns")
+            @Html.Partial("_UserResult")
+        </section>
+    </div>
+</div>
+
+@section scripts{
+    <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/Pages/test.js")"></script>
+}

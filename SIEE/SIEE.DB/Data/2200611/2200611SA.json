@@ -1,0 +1,131 @@
+[
+  {
+    "TestId": 2200611,
+    "QuestionNumber": 21,
+    "QuestionSentence": "\u003cp\u003eУкажіть найменше ціле число, яке є розв’язком нерівності $$\\dfrac{x^{2}+2x-3}{|x+2|}\u003c 0$$.\u003c/p\u003e",
+    "ImagePath": null,
+    "TrueAnswer": "-1",
+    "QuestionPrice": 2
+  },
+  {
+    "TestId": 2200611,
+    "QuestionNumber": 22,
+    "QuestionSentence": "\u003cp\u003eОбчисліть суму перших $$20$$ членів арифметичної прогресії, якщо її перший член дорівнює $$2$$, а сьомий\u0026nbsp;— $$20$$.\u003c/p\u003e",
+    "ImagePath": null,
+    "TrueAnswer": "590",
+    "QuestionPrice": 2
+  },
+  {
+    "TestId": 2200611,
+    "QuestionNumber": 23,
+    "QuestionSentence": "\u003cp\u003eОбчисліть значення виразу $$\\dfrac{53}{8-\\sqrt{11}}+\\dfrac{2}{\\sqrt{13}+\\sqrt{11}}-\\dfrac{9}{\\sqrt{13}+2}$$.\u003c/p\u003e",
+    "ImagePath": null,
+    "TrueAnswer": "10",
+    "QuestionPrice": 2
+  },
+  {
+    "TestId": 2200611,
+    "QuestionNumber": 24,
+    "QuestionSentence": "\u003cp\u003e(Задача Л. Пізанського, XII—XIII ст.)\u003c/p\u003e\u003cp\u003eДві вежі, одна з яких\u0026nbsp;— $$40~футів$$, а друга\u0026nbsp;— $$30~футів$$ заввишки, розташовано на відстані $$50~футів$$ одна від одної. До криниці, що знаходиться між ними, одночасно з обох веж злетіло по пташці. Рухаючись з однаковою швидкістю, вони прилетіли до криниці одночасно. Знайдіть відстань від криниці до найближчої вежі \u003cem\u003e(у футах)\u003c/em\u003e.\u003c/p\u003e",
+    "ImagePath": null,
+    "TrueAnswer": "18",
+    "QuestionPrice": 2
+  },
+  {
+    "TestId": 2200611,
+    "QuestionNumber": 25,
+    "QuestionSentence": "\u003cp\u003eОбчисліть значення виразу $$\\sin 2\\alpha$$, якщо $$\\mathrm {ctg}~\\alpha=-\\dfrac{1}{2}$$. Відповідь запишіть ДЕСЯТКОВИМ ДРОБОМ.\u003c/p\u003e",
+    "ImagePath": null,
+    "TrueAnswer": "-0,8",
+    "QuestionPrice": 2
+  },
+  {
+    "TestId": 2200611,
+    "QuestionNumber": 26,
+    "QuestionSentence": "\u003cp\u003eРозв’яжіть рівняння $$\\sqrt{x^{2}-x-6}=\\sqrt{-2x}$$.\u003c/p\u003e\u003cp\u003eЯкщо рівняння має один корінь, запишіть його у відповідь. Якщо рівняння має кілька коренів, запишіть у відповідь їх добуток.\u003c/p\u003e",
+    "ImagePath": null,
+    "TrueAnswer": "-3",
+    "QuestionPrice": 2
+  },
+  {
+    "TestId": 2200611,
+    "QuestionNumber": 27,
+    "QuestionSentence": "\u003cp\u003eРозв’яжіть систему рівнянь $$\\left\\{\\begin{array}{l} 2^{x} \\cdot 3^{y}=24, \\\\ 2^{y} \\cdot 3^{x}=54. \\end{array}\\right.$$ Запишіть у відповідь СУМУ $$x_{0}+y_{0}$$, якщо пара $$(x_{0};~y_{0})$$ є розв’язком системи рівнянь.\u003c/p\u003e",
+    "ImagePath": null,
+    "TrueAnswer": "4",
+    "QuestionPrice": 2
+  },
+  {
+    "TestId": 2200611,
+    "QuestionNumber": 28,
+    "QuestionSentence": "\u003cp\u003eОбчисліть $$\\dfrac{1}{25} \\cdot 9^{\\log_{3}\\sqrt{14}~+~0{,}5}$$. Відповідь запишіть ДЕСЯТКОВИМ ДРОБОМ.\u003c/p\u003e",
+    "ImagePath": null,
+    "TrueAnswer": "1,68",
+    "QuestionPrice": 2
+  },
+  {
+    "TestId": 2200611,
+    "QuestionNumber": 29,
+    "QuestionSentence": "\u003cp\u003eВідрізок $$12~см$$ завдовжки поділили на дві частини так, що сума площ квадратів, побудованих на цих частинах, стала найменшою. Обчисліть суму площ квадратів.\u003c/p\u003e",
+    "ImagePath": null,
+    "TrueAnswer": "72",
+    "QuestionPrice": 2
+  },
+  {
+    "TestId": 2200611,
+    "QuestionNumber": 30,
+    "QuestionSentence": "Річка тече лугом і двічі перетинає шосе, утворюючи криву $$y=3x-x^{2}$$. Яка площа (\u003cem\u003eкм\u003c/em\u003e$$^{2}$$) лугу між шосе та річкою, якщо вважати, що лінія шосе збігається з віссю $$OX$$ (див. рис.)? Одиниця довжини\u0026nbsp;— $$1~км$$.",
+    "ImagePath": "30.png",
+    "TrueAnswer": "4,5",
+    "QuestionPrice": 2
+  },
+  {
+    "TestId": 2200611,
+    "QuestionNumber": 31,
+    "QuestionSentence": "\u003cp\u003eЗнайдіть НАЙМЕНШЕ значення параметра $$a$$, при якому система $$\\left\\{\\begin{array}{l} x^{2}+y^{2}=a^{2}, \\\\ (x-7)^{2}+y^{2}=1 \\end{array}\\right.$$ має єдиний розв’язок.\u003c/p\u003e",
+    "ImagePath": null,
+    "TrueAnswer": "-8",
+    "QuestionPrice": 2
+  },
+  {
+    "TestId": 2200611,
+    "QuestionNumber": 32,
+    "QuestionSentence": "На рисунку зображено графік функції $$f(x)=x^{4}-x^{2}+bx+c$$. Визначте знаки параметрів $$b$$ і $$c$$. У відповіді вкажіть номер правильного варіанта",
+    "ImagePath": "32.png",
+    "TrueAnswer": "3",
+    "QuestionPrice": 2
+  },
+  {
+    "TestId": 2200611,
+    "QuestionNumber": 33,
+    "QuestionSentence": "\u003cp\u003eРозв’яжіть систему рівнянь $$\\left\\{\\begin{array}{l} \\cos \\left(\\dfrac{\\pi}{2}(2x+5) \\right)=1+(y-1)^{8}, \\\\ 4\\sin \\dfrac{\\pi y}{2}=4x^{2}+4x+5. \\end{array}\\right.$$\u003c/p\u003e\u003cp\u003eЗапишіть у відповідь ДОБУТОК $$x_{0}y_{0}$$, якщо пара $$(x_{0};~y_{0})$$ є розв’язком системи рівнянь.\u003c/p\u003e",
+    "ImagePath": null,
+    "TrueAnswer": "-0,5",
+    "QuestionPrice": 2
+  },
+  {
+    "TestId": 2200611,
+    "QuestionNumber": 34,
+    "QuestionSentence": "Обчисліть скалярний добуток векторів, зображених на рисунку.",
+    "ImagePath": "34.png",
+    "TrueAnswer": "18",
+    "QuestionPrice": 2
+  },
+  {
+    "TestId": 2200611,
+    "QuestionNumber": 35,
+    "QuestionSentence": "Укажіть номер фужера, у який можна налити НАЙБІЛЬШЕ рідини",
+    "ImagePath": "35.png",
+    "TrueAnswer": "3",
+    "QuestionPrice": 2
+  },
+  {
+    "TestId": 2200611,
+    "QuestionNumber": 36,
+    "QuestionSentence": "\u003cp\u003eВисота правильної чотирикутної піраміди дорівнює $$3~см$$. Апофема утворює з площиною основи кут $$60^{\\circ}$$. Обчисліть площу бічної поверхні піраміди (\u003cem\u003eу см\u003c/em\u003e$$^{2}$$).\u003c/p\u003e",
+    "ImagePath": null,
+    "TrueAnswer": "24",
+    "QuestionPrice": 2
+  }
+]
+

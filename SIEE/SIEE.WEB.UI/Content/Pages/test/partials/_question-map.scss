@@ -1,0 +1,50 @@
+$questionMapCellHeight:30px;
+
+.questions-map{
+    margin-top: 10px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    padding:0 10%;
+    border-bottom: 1px solid gray;
+    float: left;
+    display: none;
+    a{
+        display: block;
+        width: $questionMapCellHeight;
+        height: $questionMapCellHeight;
+        line-height: $questionMapCellHeight;
+        margin-top:5px;
+        margin-right:5px;
+        margin-bottom:5px; 
+        float: left;
+        font-weight: bold;
+        color:#929DAC;
+        border: 1px solid #929DAC;
+        text-align: center;
+    }
+
+    a:hover{
+         cursor:pointer;
+    }
+
+    a.answered{
+        color:#fff;
+        background-color: #26B1CF;
+    }
+}
+
+.current-question{
+    background-color:#FFBE00;
+    a{
+        color:white;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .questions-map{
+        height: 80px;
+        overflow-y:scroll;
+        padding: 0 10px;
+    }
+}

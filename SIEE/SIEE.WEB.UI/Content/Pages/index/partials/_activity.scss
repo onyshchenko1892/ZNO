@@ -1,0 +1,13 @@
+.activity{
+	border-left:4px solid #F65E08;
+	margin-bottom:5px;
+	padding: 1rem;
+	border-right:1px solid gray;
+	border-top:1px solid gray;
+	border-bottom:1px solid gray;
+
+	.value{
+		font-weight:bold;
+		font-size:1.6rem;
+	}
+}

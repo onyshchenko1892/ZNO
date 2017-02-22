@@ -1,0 +1,32 @@
+.user-result{
+	width: 100%;
+    float: left;
+    overflow:hidden;
+    display:none;
+
+    .progress{
+    	margin:10px;
+    	height:25px;
+    	.progress-bar{
+    	height:25px;
+    	line-height:25px;
+    }
+    }
+	.details{
+		ul{
+			list-style:none;
+			padding: 0;
+			margin-left: 10px;
+			li{
+				font-weight:600;
+				.number-true-answers{
+					color:#2ABD74;
+				}
+				.number-false-answers{
+					color:#C02626;
+				}
+			}
+		}
+	}
+    
+}

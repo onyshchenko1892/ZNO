@@ -1,0 +1,123 @@
+.question {
+    width: 100%;
+    float: left;
+    padding: 0 5%;
+    border-bottom: 1px solid black;
+    input{
+        margin-bottom:10px;
+        padding-left: 5px;
+    }
+    input.correct{
+        border:1px solid #2ABD74;   
+    }
+    input.incorrect{
+        border:1px solid red;   
+    }
+}
+
+.question-sentence {
+    padding-left: 10px;
+    border-left: 4px solid #0072C6;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    > div {
+        background-color: #F5F5F5;
+        font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+        border-radius: 3px;
+        padding: 10px;
+        overflow:hidden;
+        float:left;
+        width: 100%;
+        p{
+            float:left;
+        }
+    }
+}
+
+.question-image img {
+    width: 100%;
+    max-height:300px;
+    margin-bottom: 10px;
+}
+
+.marked-list-item {
+    display: table;
+    border-left: 4px solid gray;
+    margin: 5px 0;
+    > span {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border: 1px solid #FFBE00;
+        display: block;
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+    div {
+        display: table-cell;
+        vertical-align: middle;
+        background-color: #F5F5F5;
+        width: 100%;
+        padding: 5px;
+        text-align:left;
+    }
+
+    img {
+        max-height: 150px;
+    }
+}
+
+.true div{
+    border:2px solid #2ABD74;
+}
+
+.marked-list-item-selected{
+    border-left: 4px solid #9D0C3B;
+    > span{
+        line-height: 36px;
+        color: #9D0C3B;
+        border: 3px solid #9D0C3B;
+    }
+}
+
+.marked-list-item:hover {
+    border-left: 4px solid #26B1CF;
+    div {
+        background-color: #fff;
+    } 
+    > span {
+        border: 3px solid #26B1CF;
+        line-height: 36px;
+        color: #26B1CF;
+    }
+}
+
+.self-answer {
+    div {
+        font-weight: 700;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .marked-list-item img {
+        max-height: 140px;
+    }
+}
+
+.answers-map {
+    td {
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        border: 1px solid black;
+    }
+    tr:first-child td:first-child {
+        border: none;
+    }
+}
+
+.MJXc-display{
+    display: inline-block !important;
+    text-align:left !important;
+    margin:0 !important;
+}

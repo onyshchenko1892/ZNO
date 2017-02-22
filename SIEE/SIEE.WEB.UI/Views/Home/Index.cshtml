@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "SIEE";
+}
+
+@section style{
+    <link rel="stylesheet" href="@Url.Content("~/Content/Libs/animate.css")" />
+    <link rel="stylesheet" href="@Url.Content("~/Content/Pages/index.css")" />
+}
+
+@{
+    @Html.Partial("_SiteHeader")
+    <div class="row">
+        <section class="content">
+            <section class="col-sm-8">
+                @Html.Partial("_Subjects")
+            </section>
+            <aside class="col-sm-4">
+                @Html.Partial("_Features")
+                @Html.Partial("_Activity")
+            </aside>
+        </section>
+    </div>
+}
+
+@section scripts{
+    <script type="text/javascript" src="@Url.Content("~/Scripts/Pages/index.js")"></script>
+}

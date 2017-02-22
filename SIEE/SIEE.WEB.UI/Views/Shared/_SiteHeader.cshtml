@@ -1,0 +1,31 @@
+﻿<nav class="row site-nav">
+    <button id="show-menu-btn">
+        <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+    </button>
+    <div class="logo">
+        <img src="@Url.Content("~/Images/Site/logo.png")" alt="site logo" class="img-responsive">
+    </div>
+    <div class="site-name">
+        <span>successfully</span>
+        <span>independent</span>
+        <span>external</span>
+        <span>eveluation</span>
+    </div>
+    <div class="tagline">Ми допоможемо тобі успішно здати ЗНО</div>
+    <ul>
+        <li><a href="#">av17lost@gmail.com</a></li>
+        <li><a href="#">Вийти</a></li>
+    </ul>
+</nav>
+<nav class="menu">
+    <div class="text-center">www.siee.com</div>
+    <img src="@Url.Content("~/Images/Site/logo.png")" alt="" class="img-responsive">
+    <button id="hide-menu-btn">
+        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+    </button>
+    <ul>
+        <li>@Html.ActionLink("Головна","Index","Home")</li>
+        <li><a href="#">Мій кабінет</a></li>
+        <li><a href="#">Вибрати ВНЗ</a></li>
+    </ul>
+</nav>

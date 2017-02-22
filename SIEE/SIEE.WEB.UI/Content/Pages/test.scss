@@ -1,0 +1,25 @@
+@import "test/partials/_header";
+@import "test/partials/_question-map";
+@import "test/partials/_manage-btns";
+@import "test/partials/_question";
+@import "test/partials/_user-result";
+
+body {
+    background-color: #26B1CF;
+}
+
+.content {
+    margin: 0px 5%;
+    overflow: hidden;
+}
+
+.content-bordered{
+	border-left:1px solid gray;
+    border-right:1px solid gray;
+}
+
+@media only screen and (max-width: 400px) {
+    html {
+        font-size: 50%;
+    }
+}

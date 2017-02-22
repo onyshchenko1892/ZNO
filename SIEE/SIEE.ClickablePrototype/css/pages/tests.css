@@ -1,0 +1,120 @@
+/* line 2, ../../sass/Pages/tests/partials/_test.scss */
+.test {
+  float: left;
+  width: 100%;
+  border: 1px solid #FF972A;
+}
+/* line 6, ../../sass/Pages/tests/partials/_test.scss */
+.test table.table {
+  display: none;
+  margin: 0;
+}
+/* line 10, ../../sass/Pages/tests/partials/_test.scss */
+.test table.table thead tr {
+  background-color: #C8C8C8;
+  padding: 0;
+}
+/* line 14, ../../sass/Pages/tests/partials/_test.scss */
+.test table.table thead td {
+  height: 20px;
+  line-height: 20px;
+  vertical-align: middle;
+  font-weight: bold;
+}
+/* line 21, ../../sass/Pages/tests/partials/_test.scss */
+.test table.table tr {
+  color: white;
+  background-color: #1F7F9F;
+}
+/* line 25, ../../sass/Pages/tests/partials/_test.scss */
+.test table.table td {
+  padding: 0;
+  height: 40px;
+  line-height: 40px;
+}
+/* line 30, ../../sass/Pages/tests/partials/_test.scss */
+.test table.table td:nth-child(1) {
+  text-indent: 10px;
+}
+/* line 33, ../../sass/Pages/tests/partials/_test.scss */
+.test table.table td > a {
+  background-color: #449D44;
+  width: 90%;
+  height: 30px;
+  line-height: 30px;
+  margin: 5px auto;
+  outline: none;
+  color: white;
+  display: block;
+  overflow: hidden;
+  border-radius: 3px;
+  padding: 0 5px;
+}
+/* line 47, ../../sass/Pages/tests/partials/_test.scss */
+.test .header {
+  height: 50px;
+  line-height: 50px;
+  background-color: #FF972A;
+  position: relative;
+  color: white;
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-indent: 10px;
+}
+/* line 56, ../../sass/Pages/tests/partials/_test.scss */
+.test .header .down-list-btn {
+  float: right;
+  height: 100%;
+  right: 0;
+  position: absolute;
+  background-color: #B86D1E;
+  border: 0;
+  width: 50px;
+  outline: none;
+  text-align: center;
+}
+/* line 66, ../../sass/Pages/tests/partials/_test.scss */
+.test .header .down-list-btn span {
+  color: white;
+}
+
+@media only screen and (max-width: 400px) {
+  /* line 77, ../../sass/Pages/tests/partials/_test.scss */
+  .test table.table thead td {
+    font-size: 1.2rem;
+  }
+  /* line 81, ../../sass/Pages/tests/partials/_test.scss */
+  .test table.table td:nth-child(1) {
+    font-size: 1.4rem;
+  }
+  /* line 84, ../../sass/Pages/tests/partials/_test.scss */
+  .test table.table td > a {
+    width: 70%;
+    height: 30px;
+    font-size: 1.3rem;
+    outline: none;
+    text-align: center;
+  }
+  /* line 90, ../../sass/Pages/tests/partials/_test.scss */
+  .test table.table td > a span {
+    display: none;
+  }
+}
+/* line 3, ../../sass/Pages/tests.scss */
+.content {
+  padding: 0 5%;
+  min-width: 310px;
+  overflow: auto;
+}
+
+@media only screen and (max-width: 550px) {
+  /* line 10, ../../sass/Pages/tests.scss */
+  html {
+    font-size: 50%;
+  }
+
+  /* line 13, ../../sass/Pages/tests.scss */
+  .content {
+    padding: 0 1%;
+  }
+}

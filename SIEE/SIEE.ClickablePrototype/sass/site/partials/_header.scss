@@ -1,0 +1,106 @@
+$siteNavHeight:50px;
+.site-nav {
+    background-color: #F8F8F8;
+    height: $siteNavHeight;
+    overflow: hidden;
+    button {
+        height: 100%;
+        border: 0;
+        float: left;
+        padding: 0 20px;
+        span {
+            font-size: 2rem;
+            color: white;
+        }
+    }
+    button:hover span {
+        color: orange;
+    }
+    .logo {
+        float: left;
+        height: 100%;
+
+        width:85px;
+        padding: 5px;
+        overflow: hidden;
+        img {
+            height: 100%;
+        }
+    }
+
+    .site-name{
+        width: 160px;
+        float:left;
+        overflow:hidden;
+        height:100%;
+        position:relative;
+        border-right:1px solid #fff;
+        span{
+            position:absolute;
+            height: 25%;
+            display: block;
+            color:#2183CD;
+            font-size:1.3rem;
+            font-weight:600;
+        }
+        span:nth-child(1){
+            top:5%;
+            left:0;
+        }
+        span:nth-child(2){
+            top:28%;
+            left:20%;
+        }
+        span:nth-child(3){
+            top:50%;
+            left:40%;
+        }
+        span:nth-child(4){
+            right:5px;
+            bottom:5px;
+        }
+    }
+
+    .tagline{
+        float:left;
+        height: $siteNavHeight;
+        line-height: $siteNavHeight;
+        padding:0 10px;
+        color: #34495E;
+        font-weight:500;
+        font-size:1.6rem;
+        border-left:1px solid #ededed;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+        float: right;
+        border-left:1px solid white;
+        li {
+            float: left;
+            a {
+                display: block;
+                height: $siteNavHeight;
+                line-height: $siteNavHeight;
+                color: #34495E;
+                font-weight:bold;
+                padding: 0% 10px;
+                border-right:1px solid white;
+                border-left:1px solid #ededed;
+            }
+            
+        }
+    }    
+}
+
+#show-menu-btn {
+    background-color: #414141;    
+}
+
+
+@media only screen and (max-width: 900px) {
+    .tagline{
+        display:none;
+    }
+}
+

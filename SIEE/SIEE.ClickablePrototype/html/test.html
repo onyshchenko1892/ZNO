@@ -1,0 +1,93 @@
+<html>
+
+<head>
+    <title>Test</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/libs/jquery/jquery-3.1.0.min.js"></script>
+    <!--script src="../js/libs/mootools/mootools.js">
+    </script-->
+    <link rel="stylesheet" href="../css/libs/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/site/site.css" />
+    <link rel="stylesheet" href="../css/pages/test.css" />
+    <script src="../js/pages/test.js">
+    </script>
+    <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+    <!--script type="text/javascript" src="../js/libs/mathjax/Mathjax.js"></script>
+    <script type="text/javascript" src="../js/libs/mathjax/Mathjax.js?config=TeX-MML-AM_CHTML"></script-->
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="row test-nav">
+            <div class="col-sm-6 text-center site-name"><span id="brand"><a href="index.html">siee.somee.com</a></span></div>
+            <div class="col-sm-6 test-name text-center">Математика 2006 Основна сесія</div>
+            <div class="col-sm-4 text-center time">
+                Залишилось: 00:00:00
+            </div>
+        </nav>
+        <div class="row">
+            <section class="content">
+                <div class="questions-map">
+                </div>
+                <div class="manage-btns">
+                    <div class="row">
+                        <div class="col-sm-12 start-test">
+                            <div class="instruction-for-user alert alert-warning">
+                                <p>
+                                    Середній результат абітурієнтів, що скаладали цей тест в 2006 році - <strong>171</strong> рейтинговий бал
+                                </p>
+
+                                <p>
+                                    Середній результат користувачів нашого ресурсу - <strong>160</strong> рейтинговий бал
+                                </p>
+                                <p>
+                                    Тест триватиме <strong>120 хв.</strong> (Ваш результат буде враховуватись при підрахуванні загальної статистики)
+                                </p>
+                                <p>
+                                    Бажаємо вам успішно здати тест !
+                                </p>
+                            </div>
+                            <button class="timed disabled text-center">
+                                Розпочати тест (з урахуванням часу)
+                            </button>
+                            <button class="no-timed disabled text-center">
+                                Розпочати (без врахування часу)
+                            </button>
+                        </div>
+                        <div class="col-sm-6 text-center end-test">
+                            <button>Завершити тест</button>
+                        </div>
+                        <div class="col-sm-6 text-center navigate-questions">
+                            <button id="prev-question" class="text-center">
+                                <span class="glyphicon glyphicon-triangle-left" aria-hidden="true"></span>
+                            </button>
+                            Питання <span id="currentQuestion">1</span> з <span id="numberOfQuestions">38</span>
+                            <button id="next-question" class="text-center">
+                                <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="user-result">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar">
+                        </div>
+                        <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar">
+                        </div>
+                    </div>
+                    <div class="details">
+                        <ul>
+                            <li>Правильних відповідей: <span class="number-true-answers"></span></li>
+                            <li>Неправильних відповідей: <span class="number-false-answers"></span></li>
+                            <li>Тестових балів набрано: <span id="test-mark"></span> з <span id="max-test-mark"></span ></li>
+                        </ul>    
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>

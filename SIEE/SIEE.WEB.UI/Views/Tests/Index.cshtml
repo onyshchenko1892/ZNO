@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Tests";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section style{
+    <link rel="stylesheet" href="@Url.Content("~/Content/Pages/tests.css")" />
+}
+@Html.Partial("_SiteHeader")
+<div class="row">
+    <section class="content">
+        @Html.Partial("_Tests")
+    </section>
+</div>
+
+@section scripts{
+    <script type="text/javascript" src="@Url.Content("~/Scripts/Pages/tests.js")"></script>
+}
+
